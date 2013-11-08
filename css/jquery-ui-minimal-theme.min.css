@@ -1,0 +1,33 @@
+.ui-widget,
+.ui-widget button {
+	font-family: helvetica;
+	font-size:13px;
+}
+
+/* dialog styles */
+
+.ui-dialog {
+	border-radius: 0;
+	border: 3px solid #888;
+}
+.ui-dialog .ui-dialog-titlebar {
+	border-radius: 0;
+	background: none;
+	border:none;
+	border-bottom: 1px dotted #888;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	background: url(../images/close.png);
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	right: -1.4em;
+	top: -58%;
+	width:30px;
+	height:30px;
+	padding:0;
+	margin:0;
+}
+.ui-dialog .ui-dialog-titlebar-close .ui-icon {
+	display: none;
+}
